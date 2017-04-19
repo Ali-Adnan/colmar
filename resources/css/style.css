@@ -413,13 +413,13 @@ nav ul li {
 }
 
 @media only screen and (max-width: 460px) {
-
+.mobile-thesis.mobile {
+  padding-bottom: 16px;
+}
 
 .mobile-thesis video {
   width: 100%;
   height: auto;
-  margin-bottom: 16px;
-  border: 1px solid #e2e2e2;
 }
 
 }
