@@ -20,8 +20,9 @@
   }
 
 html {
-  font-size: 16px;
+  font-size: 14px;
     color: #999999;
+    font-family: Oxygen;
 }
 
 h1, h2, h3, h4 {
@@ -103,6 +104,10 @@ nav ul li {
 
 }
 
+.menu-item a:hover {
+  color: #333;
+}
+
 .mobile {
   display: none;
 }
@@ -119,6 +124,7 @@ nav ul li {
   justify-content: space-between;
   padding: 24px;
 }
+
 }
 
 /*Begin Main Banner CSS*/
@@ -157,9 +163,19 @@ nav ul li {
   background-color: #333;
     color: white;
     text-align: center;
-    padding: 8px;
+    padding: 10px;
     width: 80%;
     font-size: 1.3rem;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.button:hover {
+  background-color: grey;
+}
+.button:active {
+  background-color: #ebf6fd;
+  color: #333;
 }
 
 @media only screen and (max-width: 460px){
@@ -195,6 +211,10 @@ nav ul li {
     width: 90%;
     margin-bottom: 32px;
     background-color: grey;
+  }
+
+  .button:active {
+    background-color: #ebf6fd;
   }
 
 }
@@ -314,6 +334,10 @@ nav ul li {
   background-color: white;
 }
 
+.mobile.course-title p:active {
+  background-color: #ebf6fd;
+}
+
   }
 
 
@@ -356,6 +380,14 @@ nav ul li {
 .text-course p {
   padding: 8px 0;
     line-height: 1.4;
+}
+
+.course:hover {
+  background-color: #ebf6fd;
+}
+
+.text-course:hover {
+  background-color: #ebf6fd;
 }
 
 
